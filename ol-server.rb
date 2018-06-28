@@ -13,7 +13,7 @@ default_source :supermarket
 run_list "testbook::default"
 
 # Specify a custom source for a single cookbook:
-cookbook "testbook", git: 'https://github.com/shivendrapro0/testbook.git', branch: 'master'
+cookbook "testbook", git: 'https://github.com/shivendrapro0/testbook.git', branch: 'shivesha_test'
 
 default['qa'] = {
   testbook: {
